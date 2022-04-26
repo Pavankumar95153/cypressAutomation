@@ -30,3 +30,8 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm run test
+    - name: Archive test results videos
+      uses: actions/upload-artifact@v3
+      with:
+         name: code-coverage-report
+         path: cypressAutomation/cypress/videos/2-advanced-examples/*.js.mp4 
