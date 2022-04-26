@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\Cypress run",
-    "specialTest": "npm install Cypress && npm run test --"
+    "test": "node_modules\\.bin\\cypress run",
+    "specialTest": "npm install cypress && npm run test --"
   },
   "author": "",
   "license": "ISC",
